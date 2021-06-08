@@ -55,7 +55,7 @@ public class CardTrick {
         
         
        
-        System.out.println("Cards generated:");
+        System.out.println("Cards generated: ");
          for (int x=0; x<magicHand.length; x++){
              
              System.out.println(magicHand[x].getValue() +" "+ magicHand[x].getSuit());

@@ -76,8 +76,10 @@ public class CardTrick {
          System.out.println("The card " + value +" " + symbol+ " is NOT AVAILABLE!");
          }
        
-        
-             
+         Card luckyCard = new Card();
+         luckyCard.setValue(5);
+         luckyCard.setSuit(Card.SUITS[2]);
+         System.out.println("Lucky card is: "+ luckyCard.getValue() + " "+luckyCard.getSuit());             
          
          
          
